@@ -1,13 +1,20 @@
 import "./App.css";
+import Dictionary from "./components/Dictionary";
 import logo from "./logo.png";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <img src={logo} className="logo img-fluid" alt="logo" />
-        CHECK YOUR WORDS
-      </header>
+      <div className="container">
+        <header>
+          <img src={logo} className="logo img-fluid" alt="logo" />
+          CHECK YOUR WORDS
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer>Coded by Sireena Khin</footer>
+      </div>
     </div>
   );
 }
