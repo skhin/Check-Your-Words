@@ -1,7 +1,20 @@
 .word {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: rgb(231, 213, 213);
+  font-size: xx-large;
 }
 
+.card {
+  border: 2px solid slategray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* ////////////// Meaning.js CSS ////////////*/
 .example {
   color: palegoldenrod;
+}
+
+h3 {
+  color: rgb(196, 93, 93);
 }

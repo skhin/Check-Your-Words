@@ -30,10 +30,15 @@ const Dictionary = () => {
     <>
       <div className="dictionary">
         <form onSubmit={search}>
-          <input type="search" onChange={handleKeywordChange} />
+          <input
+            className="form-control form-control-lg"
+            type="search"
+            placeholder="Start searching..."
+            onChange={handleKeywordChange}
+          />
         </form>
-        <Results results={results} />
       </div>
+      <Results results={results} />
     </>
   );
 };
