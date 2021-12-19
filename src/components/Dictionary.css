@@ -4,4 +4,9 @@ main {
 
 form {
   padding-left: 10px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  height: 35px;
+  min-width: 250px;
 }

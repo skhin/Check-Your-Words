@@ -1,3 +1,7 @@
 .word {
   text-transform: capitalize;
 }
+
+.example {
+  color: palegoldenrod;
+}

@@ -14,7 +14,9 @@ const Meaning = (props) => {
               <p>
                 {definition.definition}
                 <br />
-                <em>{definition.example}</em>
+                <span className="example">
+                  <em>{definition.example}</em>
+                </span>
               </p>
             </div>
           );
