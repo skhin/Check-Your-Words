@@ -3,7 +3,7 @@ import Synonyms from "./Synonyms";
 import "./Meaning.css";
 
 const Meaning = (props) => {
-  console.log(props.meaning);
+  // console.log(props.meaning);
   const word = props.meaning;
 
   return (
