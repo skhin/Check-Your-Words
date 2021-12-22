@@ -8,8 +8,8 @@ const Results = (props) => {
   if (props.results) {
     return (
       <>
-        <div class="card">
-          <div class="card-body">
+        <div className="card">
+          <div className="card-body">
             <div className="results">
               <h2 className="word">{props.results.word}</h2>
               {props.results.meanings.map(function (meaning, index) {
