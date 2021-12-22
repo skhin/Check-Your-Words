@@ -11,7 +11,7 @@ function App() {
           CHECK YOUR WORDS
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyWord="horse" />
         </main>
         <footer>Coded by Sireena Khin</footer>
       </div>

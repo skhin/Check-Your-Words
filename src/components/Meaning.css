@@ -1,0 +1,10 @@
+li {
+  display: inline-block;
+  padding-right: 13px;
+  opacity: 70%;
+  font-size: 13px;
+}
+
+ul {
+  padding-bottom: 15px;
+}

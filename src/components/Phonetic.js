@@ -8,9 +8,8 @@ const Phonetic = (props) => {
       <div className="phonetic">
         <a href={props.phonetic.audio} target="_blank" className="listen">
           Listen here
-        </a>
-        <br />
-        {props.phonetic.text}
+        </a>{" "}
+        <span className="text">{props.phonetic.text}</span>
       </div>
     </>
   );

@@ -15,15 +15,23 @@ const Results = (props) => {
               <h2 className="word">{props.results.word}</h2>
               {props.results.phonetics.map(function (phonetic, index) {
                 return (
-                  <div key={index}>
-                    <Phonetic phonetic={phonetic} />
+                  <div className="card">
+                    <div className="card-body">
+                      <div key={index}>
+                        <Phonetic phonetic={phonetic} />
+                      </div>
+                    </div>
                   </div>
                 );
               })}
               {props.results.meanings.map(function (meaning, index) {
                 return (
-                  <div key={index}>
-                    <Meaning meaning={meaning} />
+                  <div className="card">
+                    <div className="card-body">
+                      <div key={index}>
+                        <Meaning meaning={meaning} />
+                      </div>
+                    </div>
                   </div>
                 );
               })}

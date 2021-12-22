@@ -15,11 +15,11 @@ header {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bolder;
-  color: whitesmoke;
+  color: palevioletred;
   border-bottom: 1px solid black;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 footer {
