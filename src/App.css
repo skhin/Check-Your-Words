@@ -33,3 +33,7 @@ footer {
   max-width: 900px;
   margin: 0 auto;
 }
+
+a {
+  color: rgb(78, 78, 236);
+}
