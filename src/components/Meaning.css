@@ -8,3 +8,9 @@ li {
 ul {
   padding-bottom: 15px;
 }
+
+.example {
+  font-style: italic;
+  opacity: 80%;
+  font-size: 15px;
+}

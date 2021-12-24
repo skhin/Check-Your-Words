@@ -13,7 +13,16 @@ function App() {
         <main>
           <Dictionary defaultKeyWord="horse" />
         </main>
-        <footer>Coded by Sireena Khin</footer>
+        <footer>
+          Coded by{" "}
+          <a href="https://www.linkedin.com/in/s-khin/" target="_blank">
+            Sireena Khin
+          </a>{" "}
+          and open sourced on{" "}
+          <a href="https://github.com/skhin/check-your-words" target="_blank">
+            Github
+          </a>
+        </footer>
       </div>
     </div>
   );

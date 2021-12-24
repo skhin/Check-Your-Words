@@ -13,19 +13,14 @@ const Meaning = (props) => {
         {word.definitions.map(function (definition, index) {
           return (
             <div key={index}>
-              <p>
-                <strong>Definition:</strong> {definition.definition}
+              <div key={index}>
+                <div className="definition">{definition.definition}</div>
                 <br />
+
+                <div className="example">{definition.example}</div>
                 <br />
-                <strong>Example:</strong>
-                {""}
-                <span className="example">
-                  <em>{definition.example}</em>
-                </span>
-                <br />
-                <br />
-                <Synonyms synonyms={definition.synonyms} />
-              </p>
+                <Synonyms synonym={definition.synonyms} />
+              </div>
             </div>
           );
         })}
