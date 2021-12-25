@@ -15,11 +15,19 @@ function App() {
         </main>
         <footer>
           Coded by{" "}
-          <a href="https://www.linkedin.com/in/s-khin/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/s-khin/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Sireena Khin
           </a>{" "}
           and open sourced on{" "}
-          <a href="https://github.com/skhin/check-your-words" target="_blank">
+          <a
+            href="https://github.com/skhin/check-your-words"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>
         </footer>

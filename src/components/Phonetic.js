@@ -6,7 +6,12 @@ const Phonetic = (props) => {
   return (
     <>
       <div className="phonetic">
-        <a href={props.phonetic.audio} target="_blank" className="listen">
+        <a
+          href={props.phonetic.audio}
+          target="_blank"
+          rel="noreferrer"
+          className="listen"
+        >
           Listen here
         </a>{" "}
         <span className="text">{props.phonetic.text}</span>

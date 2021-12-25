@@ -17,7 +17,11 @@ const Photos = (props) => {
                 {props.photos.map(function (photos, index) {
                   return (
                     <div className="col-4" key={index}>
-                      <a href={photos.src.original} target="_blank">
+                      <a
+                        href={photos.src.original}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img src={photos.src.tiny} className="pics img-fluid" />
                       </a>
                     </div>
