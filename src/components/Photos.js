@@ -22,7 +22,11 @@ const Photos = (props) => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img src={photos.src.tiny} className="pics img-fluid" />
+                        <img
+                          src={photos.src.tiny}
+                          alt={photos.alt}
+                          className="pics img-fluid"
+                        />
                       </a>
                     </div>
                   );
