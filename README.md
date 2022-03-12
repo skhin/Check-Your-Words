@@ -8,5 +8,8 @@ The default word upon a new page loading is 'horse'
 <img width="673" alt="Screenshot 2022-03-12 at 11 06 24 AM" src="https://user-images.githubusercontent.com/88125976/158001407-abaa4aab-fc50-425e-8a86-de202a2f34e2.png">
 
 
-2. Second API that was used was the pictures 
-3. https://www.pexels.com/api/![Uploading Screenshot 2022-03-12 at 11.06.30 AM.png…]()
+2. Second API that was used was the pictures was https://www.pexels.com/api/
+
+
+
+<img width="692" alt="Screenshot 2022-03-12 at 11 06 30 AM" src="https://user-images.githubusercontent.com/88125976/158001528-0ee3ef3e-8c01-49fe-8102-842b78a05060.png">
